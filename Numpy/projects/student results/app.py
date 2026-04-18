@@ -39,4 +39,8 @@ print(Person3.name, np.sum(Person3.grade), np.mean(Person3.grade))
 print('Course analysis')
 for j in range(3):
    for k in range(3):
-    print(f`course at index ${j}`, finalgrades[k, j])
+    print(f"course at index {j} for  student {j}", finalgrades[k, j])
+
+print("Student Rankings")
+for i in np.nditer(finalgrades):
+   print(f"The highest student un course {i} is {i}")

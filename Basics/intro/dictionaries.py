@@ -23,3 +23,11 @@ print(z)
 #I can also use they key value pair to add a new tuple to the dict
 thisdict["genre"] = "Rich"
 print(thisdict)
+
+thisdihh = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": {
+      
+  }
+}
